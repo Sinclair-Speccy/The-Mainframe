@@ -1,1 +1,1 @@
-Here, you can find stuff for Yggdrasil Linux
+Here, you can find stuff for OSes
