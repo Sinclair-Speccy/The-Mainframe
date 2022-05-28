@@ -1,0 +1,1 @@
+You cna find custom guides and such for installing OSes here. Most of them will come with a custom 86box config file which you can use, a hard drive with MS-DOS installed, a blnak floppy if needed for a boot disk and a guide
