@@ -67,3 +67,7 @@ footer{
 	width: 100%;
 	float: left;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
