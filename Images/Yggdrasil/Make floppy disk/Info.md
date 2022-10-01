@@ -1,1 +1,1 @@
-Images for making a YggdrasIL floppuy disk guide
+Images for making a Yggdrasil floppy disk guide
