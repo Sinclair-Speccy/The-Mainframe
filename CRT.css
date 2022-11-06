@@ -3,7 +3,7 @@ body {
   background-color: #003511;
   color: #66e381;
   font-family: 'VT323', monospace;
-  padding: 6000;
+ font-size: 20px;
 }
 
 /* Adapted from source: http://aleclownes.com/2017/02/01/crt-display.html */
@@ -170,6 +170,15 @@ body {
 
 .site-title {
   font-size: 2rem;
+}
+
+@media (prefers-reduced-motion) {
+  .crt::after {
+    animation: none;
+  }
+  .crt {
+    animation: textShadow 16s infinite;
+  }
 }
 
  /* unvisited link */
