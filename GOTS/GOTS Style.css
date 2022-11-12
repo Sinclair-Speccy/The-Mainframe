@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
             body {
                 font-family: 'Fondamento', sans-serif;
                 margin: 0;
@@ -215,4 +214,9 @@
                     flex-wrap: wrap;
                 }
             }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
   
