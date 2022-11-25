@@ -1,0 +1,1 @@
+These are icons for the site. I got most of them from the World of Copland icon packs at https://iconfactory.com/ so you should check that place out... or you can simply grab them from the repo source
