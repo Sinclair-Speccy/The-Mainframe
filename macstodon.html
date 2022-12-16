@@ -209,9 +209,17 @@
 		
 <img src="Images/Macstodon/Macstodon/Message.PNG" alt="" class="responsive"/>
 		
-		<p>I suggest you log out when finished as there seems to be a strange bug where the machine hangs if you close Macstodon and everything is unusable. As per the repo, that is most likely this or it is something else:</p>
+		<p>If you ever restart the machine and load Macstodon up again, leave it some time to load everything as it will look like it has hung, but it has not.</p>
 		
-		<p>Performance of parsing large JSON responses is terrible. I'm sorry, I don't know how to fix this. If it looks like Macstodon has hung during the "Parsing Response" stage of a progress bar, it probably hasn't, it's just taking it's sweet time. Go make a coffee and come back :)</p>
+		</article>
+		
+		 <article>
+      <h1 class="title">FAQ</h1>
+      <p><h3>Does Macstodon work on places like system7.app?</h3></p>
+	  <p>Answer? No, it doesn't. It can't access servers on your local network and you need to run an SSL-stripping proxy like WebOne on another machine in order for Macstodon to work. I have tried this and you will get this error:</p>
+	  <img src="Images/Macstodon/41b74c87ee93587d.png" alt="" class="responsive"/>
+	  <p>System7.app and such cannot get the IP you use for the WebOne proxy.</p>
+	  </article>
   </main>
 
 
