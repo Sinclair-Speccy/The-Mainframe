@@ -5,7 +5,7 @@ body{
   font-family: 'Perfect DOS VGA 437','Perfect DOS VGA 437 Win', sans-serif;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
   color:#000000;
-  background-image: url("https://sadhost.neocities.org/images/tiles/comp016.gif");
+  background-image: url("http://myrkr.info/photo/Tiles/Macintosh%20System%207.5.3%20Desktop%20Patterns/24517.png");
   background-repeat: repeat;
 }
 .text-centre{
@@ -20,9 +20,9 @@ body{
   overflow:hidden;
 }
 header nav{
-  background:#897669;
-  color:#c8b29a;
-  border: solid 1px #897669;
+  background:#c7c7c7;
+  color:#f3f3f3;
+  border: solid 1px #c7c7c7;
   overflow:hidden;
   padding:10px auto;
 }
@@ -42,18 +42,18 @@ header nav ul li a{
 article{
   margin: 5px;
   padding: 5px 0;
-  border: solid 1px #cab4a0;
+  border: solid 1px #f3f3f3;
   overflow: hidden;
   padding-top: 0px;
   background:#fff;
 }
 .title{
-  background: #897669;
+  background: #c7c7c7;
   color: #000000;
   padding: 5px;
   padding-left: 10px;
   overflow: hidden;
-	margin: 0;
+  margin: 0;
   font-weight:bolder;
 }
 article p, article h1,article h2, article h3, article h4{
