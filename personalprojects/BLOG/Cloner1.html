@@ -37,15 +37,15 @@
 
 <p>When I first started my first thought was to try and run the disk image as I presumed that had the stuff already so I tried this in the AppleWin emulator. What was I greeted with? This:</p>
 	
-	<img src="../../Images/Blog/ElkCloner/Skrenta Cloner source disk image.png" class="responsive"/>
+	<img src="/Images/Blog/ElkCloner/Skrenta Cloner source disk image.png" class="responsive"/>
 	
 <p>What you see right now is the contents of the disk image which has the source code as ".obj" and ".obk" along with the program itself. Trying to run it results in the Apple II telling me there is a file type mismatch and break in 30 which I presume is line 30 of the code:</p>
 		
-	<img src="../../Images/Blog/ElkCloner/1st run cloner.png" class="responsive"/>		
+	<img src="/Images/Blog/ElkCloner/1st run cloner.png" class="responsive"/>		
 			
 			<p>This is when I reached out to the nerds of Mastodon for help. I was suggested to use a assembler thought was to go to an online assembler because you would think "oh, it's 6502 assembly code, I can just assemble this online". Nope, you can't. Why? You are going to run into errors about there being a syntax error on line 1 like this:</p>
 			
-    <img src="../../Images/Blog/ElkCloner/6502 online assembler.PNG" class="responsive"/> 
+    <img src="/Images/Blog/ElkCloner/6502 online assembler.PNG" class="responsive"/> 
 
 <p>Not very nice, right? This is when I decided to head to Mastodon for help. The answer? Most likely assembler dialect issues. The source code for Elk Cloner is most likely in ORCA/M assembly which meant I could not assemble this in a ordinary online 6502 assembler so I was suggested to use the cross assembler Merlin 32, meaning I had to run this under Linux since I couldn't get it to work under Windows.</p>
 </article>
@@ -58,45 +58,45 @@
 			
  <p>When Merlin had finished downloading and I had installed it I set up a folder containing the source code in a ".s" file and ran the terminal from within that folder.</p>
 
-<img src="../../Images/Blog/ElkCloner/Cloner source file.png" class="responsive"/>
+<img src="/Images/Blog/ElkCloner/Cloner source file.png" class="responsive"/>
 		  
 <p>I thought that assembling it to get a binary that could be run was hard but it was as simple as typing in "merlin32 cloner.s" and pressing enter without any extra parameters. And it was done pretty quickly too despite my iMac being slow at times due to its age.</p>
 
-<img src="../../Images/Blog/ElkCloner/Command line.png" class="responsive"/>
+<img src="/Images/Blog/ElkCloner/Command line.png" class="responsive"/>
 		  
-		  <img src="../../Images/Blog/ElkCloner/Completed assembly.png" class="responsive"/>
-		  
+		  <img src="/Images/Blog/ElkCloner/Completed assembly.png" class="responsive"/>
+		
 <p>After it was done I got two files. A file that looks blank called cloner and one for file information. The blank file is the binary I needed so I transferred these to Windows.</p>
 		  
-		  		  <img src="../../Images/Blog/ElkCloner/Completed assembly files.png" class="responsive"/>
+		  		  <img src="/Images/Blog/ElkCloner/Completed assembly files.png" class="responsive"/>
 
 <p>Now with the binary in my hands it was time to get this onto a disk image... which was also hard. Turns out trying to get the binary onto a disk inage is a pain in the butt too. My usual program I use to put files onto disk inages did not work as it couldn't read the ".dsk" file type so once again I went to Mastodon for help. I was given a few suggestions, the first one being Diskm8.</p>
 		  
 		  <p>As usual I can't read instructions because I am an idiot so I had no idea on how to use Diskm8 until after a few minutes.</p>
 
-		  	  		  		  <img src="../../Images/Blog/ElkCloner/Diskm8.png" class="responsive"/>
+		  	  		  		  <img src="/Images/Blog/ElkCloner/Diskm8.png" class="responsive"/>
 		  
 		  <p>I had to mount the disk I wanted to use then copy the files over using the CLI.</p>
 		  
-		  <img src="../../Images/Blog/ElkCloner/Diskm8 2.png" class="responsive"/>
+		  <img src="/Images/Blog/ElkCloner/Diskm8 2.png" class="responsive"/>
 		  
 		  <p>Now with the binayr file on the disk using Diskm8, it was time to try it out.</p>
 		  
-		   <img src="../../Images/Blog/ElkCloner/2nd try.png" class="responsive"/>
+		   <img src="/Images/Blog/ElkCloner/2nd try.png" class="responsive"/>
 		  
 		  <p>I loaded up AppleWin once again, booted the master disk that came with the emulator and switched the master disk to the disk that now had the Elk Cloner binary on it. I double checked it had transferred using the catalog command and yes it did. That extra file was from a previous attempt as I had not cleared the disk, but this wasn't a big deal.</p>
 		  
-		    <img src="../../Images/Blog/ElkCloner/Error 13.png" class="responsive"/>
+		    <img src="/Images/Blog/ElkCloner/Error 13.png" class="responsive"/>
 		  
 		  <p>Trying to run it gave me error #13. I had no idea what this meant nor do I still know what it means. I presumed something had broken when transferring the binary using Diskm8 so I tried another suggested program called AppleCommander. This thing required Java so that was not fun.</p>
 		  
 		  <p>I decided to create a whole new floppy disk image with the binary instead of using an existing blnak floppy which I had used prior. Thankfully AppleCommander has the option to create DOS 3.3 disk inmages which is what I needed.</p>
 		  
-		  <img src="../../Images/Blog/ElkCloner/AppleCommander.png" class="responsive"/>
+		  <img src="/Images/Blog/ElkCloner/AppleCommander.png" class="responsive"/>
 		  
 		  <p>I saved that disk image with the cloner binary and went back to AppleWin to try it out. Of course, I double checked that I had gotten it onto the disk with the catalog command and it was there.</p>
 		  
-		  	  <img src="../../Images/Blog/ElkCloner/2nd try 2.png" class="responsive"/>
+		  	  <img src="/Images/Blog/ElkCloner/2nd try 2.png" class="responsive"/>
 		  
 		  <p>However running it still gave me error 13. Now what? Turns out I had been running the binary the wrong way and had to use "BRUN" instead of just "RUN".</p>
 		  <p>I didn't even know BRUN was a thing so I tried it out... and it crashed the machine.</p>
