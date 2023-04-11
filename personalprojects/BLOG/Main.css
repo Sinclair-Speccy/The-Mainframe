@@ -16,9 +16,9 @@ background-image: url("https://background-tiles.com/overview/blue/patterns/large
   overflow:hidden;
 }
 header nav{
-  background:#c66373;
+  background:#D2D6EF;
   color:#fff;
-  border: solid 1px #c66373;;
+  border: solid 1px #D2D6EF;;
   overflow:hidden;
   padding:10px auto;
 }
@@ -38,13 +38,13 @@ header nav ul li a{
 article{
   margin: 5px;
   padding: 5px 0;
-  border: solid 1px #633139;;
+  border: solid 1px #4A6670;;
   overflow: hidden;
   padding-top: 0px;
   background:#fff;
 }
 .title{
-  background: #c66373;
+  background: #D2D6EF;
   color: #000000;
   padding: 5px;
   padding-left: 10px;
