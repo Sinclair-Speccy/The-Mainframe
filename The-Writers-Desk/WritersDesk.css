@@ -2,7 +2,8 @@ body{
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'sans;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
   color:#000000;
-  background:#4480B4;
+  background-image: url("https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/The-Writers-Desk/FIBER01.png");
+  background-repeat: repeat;
 }
 .text-centre{
   text-align:center;
@@ -16,9 +17,9 @@ body{
   overflow:hidden;
 }
 header nav{
-  background:#c66373;
+  background:#BBBBBB;
   color:#fff;
-  border: solid 1px #c66373;;
+  border: solid 1px #BBBBBB;;
   overflow:hidden;
   padding:10px auto;
 }
@@ -38,13 +39,13 @@ header nav ul li a{
 article{
   margin: 5px;
   padding: 5px 0;
-  border: solid 1px #633139;;
+  border: solid 1px #AAAAAA;;
   overflow: hidden;
   padding-top: 0px;
   background:#fff;
 }
 .title{
-  background: #c66373;
+  background: #BBBBBB;
   color: #000000;
   padding: 5px;
   padding-left: 10px;

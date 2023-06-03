@@ -1,25 +1,34 @@
  <!DOCTYPE html>
 <div class="body-wrapper">
   <header>
-	  <title>The rush to revive Elk Cloner: Part 1</title>
-    <h1 class="title text-centre">/var/log</h1>
-    <link rel="stylesheet" href="Main.css">
+	  <title>The rush to revive Elk Cloner</title>
+    <h1 class="title text-centre">Server Rack</h1>
+    <link rel="stylesheet" href="ServerRack.css">
 	  <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Icons/apple II.ico">
     <nav role="navigation">
       <ul>
         <li>
-          <a href="https://sinclair-speccy.github.io/The-Mainframe/" title="Back to the Mainframe">Back to the Mainframe</a>
+          <a href="https://sinclair-speccy.github.io/The-Mainframe/index.html" title="Back to The Mainframe">Back to The Mainframe</a>
         </li>
         <li>
-          <a href="https://sinclair-speccy.github.io/The-Mainframe/personalprojects/BLOG/BlogIndex.html" title="All blog posts">All blog posts</a>
+          <a href="https://sinclair-speccy.github.io/The-Mainframe/Server-Rack/Reviews/Reviews.html" title="Reviews">Reviews</a>
         </li>
+		  <li>
+          <a href="https://sinclair-speccy.github.io/The-Mainframe/Server-Rack/Guides/Guides.html" title="Guides">Guides</a>
+        </li>
+        <li><a href="https://sinclair-speccy.github.io/The-Mainframe/Server-Rack/Useful-Tech-Links.html" title="Useful tech links">Useful tech links</a>
+		</li>
+		 <li><a href="https://sinclair-speccy.github.io/The-Mainframe/Server-Rack/Other-Nerdy-Stuff.html" title="Other Nerdy Stuff">Other Nerdy Stuff</a>
+	    </li>
+		 <li><a href="https://sinclair-speccy.github.io/The-Mainframe/Server-Rack/Tech-Deck/index.html" title="Tech Deck">Tech Deck</a>
+	    </li>
       </ul>
     </nav>
   </header>
   <main>
 
 	  <article>
-     <h1 class="title">The rush to revive Elk Cloner: Part 1</h1>
+     <h1 class="title">The rush to revive Elk Cloner</h1>
     <p>Since March was now dusted off I was proud I had at least done something for #MARCHintosh on the net, that is emulating the Twiggy Mac prototype and the Sony Test pre-release version of System 1 in Mini vMac (which I need to do a blog post on). This was my first time partaking in something like this and well, it was great, even if it was only one thing compared to others who had physical Macs they could use.</p>
 
      <p>That was until April rolled over. I had not realised people had made a new event of sorts called "Appril2", which is supposed to sound like Apple 2. An online hashtag for the Apple ][?! What was I supposed to do? I knew what I was gonna do after thinking for a while, and that was trying out Elk Cloner, the program with a personality. I picked to do something different... which turned out to be lot harder to get working than I had expected.<p>
@@ -37,15 +46,15 @@
 
 <p>When I first started my first thought was to try and run the disk image as I presumed that had the stuff already so I tried this in the AppleWin emulator. What was I greeted with? This:</p>
 	
-	<img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/Skrenta%20Cloner%20source%20disk%20image.png" class="responsive"/>
+	<img src="Images/ElkCloner/Skrenta%20Cloner%20source%20disk%20image.png" class="responsive"/>
 	
 <p>What you see right now is the contents of the disk image which has the source code as ".obj" and ".obk" along with the program itself. Trying to run it results in the Apple II telling me there is a file type mismatch and break in 30 which I presume is line 30 of the code:</p>
 		
-	<img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/1st%20run%20cloner.png" class="responsive"/>		
+	<img src="Images/ElkCloner/1st%20run%20cloner.png" class="responsive"/>		
 			
 			<p>This is when I reached out to the nerds of Mastodon for help. I was suggested to use a assembler thought was to go to an online assembler because you would think "oh, it's 6502 assembly code, I can just assemble this online". Nope, you can't. Why? You are going to run into errors about there being a syntax error on line 1 like this:</p>
 			
-    <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/6502%20online%20assembler.PNG" class="responsive"/> 
+    <img src="Images/ElkCloner/6502%20online%20assembler.PNG" class="responsive"/> 
 
 <p>Not very nice, right? This is when I decided to head to Mastodon for help. The answer? Most likely assembler dialect issues. The source code for Elk Cloner is most likely in ORCA/M assembly which meant I could not assemble this in a ordinary online 6502 assembler so I was suggested to use the cross assembler Merlin 32, meaning I had to run this under Linux since I couldn't get it to work under Windows.</p>
 </article>
@@ -58,45 +67,45 @@
 			
  <p>When Merlin had finished downloading and I had installed it I set up a folder containing the source code in a ".s" file and ran the terminal from within that folder.</p>
 
-<img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/Cloner%20source%20file.png" class="responsive"/>
+<img src="Images/ElkCloner/Cloner%20source%20file.png" class="responsive"/>
 		  
 <p>I thought that assembling it to get a binary that could be run was hard but it was as simple as typing in "merlin32 cloner.s" and pressing enter without any extra parameters. And it was done pretty quickly too despite my iMac being slow at times due to its age.</p>
 
-<img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/Command%20line.png" class="responsive"/>
+<img src="Images/ElkCloner/Command%20line.png" class="responsive"/>
 		  
-		  <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/Completed%20assembly.png" class="responsive"/>
+		  <img src="Images/ElkCloner/Completed%20assembly.png" class="responsive"/>
 		
 <p>After it was done I got two files. A file that looks blank called cloner and one for file information. The blank file is the binary I needed so I transferred these to Windows.</p>
 		  
-		  		  <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/Completed%20assembly%20files.png" class="responsive"/>
+		  		  <img src="Images/ElkCloner/Completed%20assembly%20files.png" class="responsive"/>
 
 <p>Now with the binary in my hands it was time to get this onto a disk image... which was also hard. Turns out trying to get the binary onto a disk inage is a pain in the butt too. My usual program I use to put files onto disk inages did not work as it couldn't read the ".dsk" file type so once again I went to Mastodon for help. I was given a few suggestions, the first one being Diskm8.</p>
 		  
 		  <p>As usual I can't read instructions because I am an idiot so I had no idea on how to use Diskm8 until after a few minutes.</p>
 
-		  	  		  		  <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/Diskm8.png" class="responsive"/>
+		  	  		  		  <img src="Images/ElkCloner/Diskm8.png" class="responsive"/>
 		  
 		  <p>I had to mount the disk I wanted to use then copy the files over using the CLI.</p>
 		  
-		  <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/Diskm8%202.png" class="responsive"/>
+		  <img src="Images/ElkCloner/Diskm8%202.png" class="responsive"/>
 		  
 		  <p>Now with the binary file on the disk using Diskm8, it was time to try it out.</p>
 		  
-		   <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/2nd%20try.PNG" class="responsive"/>
+		   <img src="Images/ElkCloner/2nd%20try.PNG" class="responsive"/>
 		  
 		  <p>I loaded up AppleWin once again, booted the master disk that came with the emulator and switched the master disk to the disk that now had the Elk Cloner binary on it. I double checked it had transferred using the catalog command and yes it did. That extra file was from a previous attempt as I had not cleared the disk, but this wasn't a big deal.</p>
 		  
-		    <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/Error%2013.PNG" class="responsive"/>
+		    <img src="Images/ElkCloner/Error%2013.PNG" class="responsive"/>
 		  
 		  <p>Trying to run it gave me error #13. I had no idea what this meant nor do I still know what it means. I presumed something had broken when transferring the binary using Diskm8 so I tried another suggested program called AppleCommander. This thing required Java so that was not fun.</p>
 		  
 		  <p>I decided to create a whole new floppy disk image with the binary instead of using an existing blnak floppy which I had used prior. Thankfully AppleCommander has the option to create DOS 3.3 disk inmages which is what I needed.</p>
 		  
-		  <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/AppleCommander.PNG" class="responsive"/>
+		  <img src="Images/ElkCloner/AppleCommander.PNG" class="responsive"/>
 		  
 		  <p>I saved that disk image with the cloner binary and went back to AppleWin to try it out. Of course, I double checked that I had gotten it onto the disk with the catalog command and it was there.</p>
 		  
-		  	  <img src="https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Images/Blog/ElkCloner/2nd%20try%202.PNG" class="responsive"/>
+		  	  <img src="Images/ElkCloner/2nd%20try%202.PNG" class="responsive"/>
 		  
 		  <p>However running it still gave me error 13. Now what? Turns out I had been running the binary the wrong way and had to use "BRUN" instead of just "RUN".</p>
 		  <p>I didn't even know BRUN was a thing so I tried it out... and it crashed the machine.</p>
