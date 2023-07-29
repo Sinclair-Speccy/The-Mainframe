@@ -11,7 +11,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if (userConsent === 'true') {
         const previousPage = localStorage.getItem(previousPageKey);
         if (previousPage) {
-            window.location.href = previousPage;
+            const confirmRedirect = confirm('Would you like to go back to the previous page?');
+            if (confirmRedirect) {
+                window.location.href = previousPage;
+            } else {
+                window.location.href = 'https://sinclair-speccy.github.io/The-Mainframe/Off-Limits/Bypass-The-Filter/index.html';
+            }
         } else {
             showBypassContent();
         }
@@ -28,7 +33,12 @@ document.addEventListener('DOMContentLoaded', function () {
             localStorage.setItem(consentKey, 'true');
             const previousPage = localStorage.getItem(previousPageKey);
             if (previousPage) {
-                window.location.href = previousPage;
+                const confirmRedirect = confirm('Would you like to go back to the previous page?');
+                if (confirmRedirect) {
+                    window.location.href = previousPage;
+                } else {
+                    window.location.href = 'https://sinclair-speccy.github.io/The-Mainframe/Off-Limits/Bypass-The-Filter/index.html';
+                }
             } else {
                 showBypassContent();
             }
