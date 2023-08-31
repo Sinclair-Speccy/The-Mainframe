@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Red MicroSystems - Computer List</title>
+</head>
+<body>
+  <div class="container">
+    <center>
+      <table class="header-table">
+        <tr>
+          <td colspan="1" align="center">
+            <h1>Red MicroSystems</h1>
+            <p><i>Computers Through the Years</i></p>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <form id="decade-form">
+        <label for="decade">Select a Decade:</label>
+        <select id="decade" name="decade">
+          <option value="40s">1940s</option>
+          <option value="50s">1950s</option>
+          <option value="60s">1960s</option>
+          <option value="70s">1970s</option>
+          <option value="80s">1980s</option>
+          <option value="90s">1990s</option>
+          <!-- Add more decades as needed -->
+        </select>
+        <button type="submit">Show Computers</button>
+      </form>
+      <br>
+      <table class="computer-list-table" id="computer-list">
+        <tr>
+          <th>Year</th>
+          <th>Model</th>
+        </tr>
+      </table>
+    </center>
+    <br>
+    <center>
+      <table class="footer-table">
+        <tr>
+          <td align="center">
+            <p>&copy; 1990s Red MicroSystems. All rights reserved.</p>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </div>
+  
+  <script src="computers.js"></script>
+</body>
+</html>

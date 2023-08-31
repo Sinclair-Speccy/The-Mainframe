@@ -1,0 +1,17 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #000;
+  color: #00FF00;
+  margin: 0;
+  padding: 0;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #00FF00;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.4;
+}
