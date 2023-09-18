@@ -1,0 +1,14 @@
+site_name: Emulation Manual
+site_url: https://sinclair-speccy.github.io/The-Mainframe/
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - Software: software.md
+  - Emulating OSes & Hardware: emulating.md
+  - Troubleshooting: troubleshooting.md
+  - Community & Resources: community-resources.md
+  - Future Developments: future-developments.md
+  - Notes & Tips: notes-tips.md
+  - Lists: Lists.md
