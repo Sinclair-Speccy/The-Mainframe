@@ -1,14 +1,39 @@
 site_name: Emulation Manual
-site_url: https://sinclair-speccy.github.io/The-Mainframe/
+
+# Theme Configuration
 theme:
   name: readthedocs
 
+# Base URL Configuration
+base_url: /The-Mainframe/
+sitw_url: https://sinclair-speccy.github.io/The-Mainframe/
+
+# Navigation Configuration
 nav:
-  - Home: index.md
-  - Software: software.md
-  - Emulating OSes & Hardware: emulating.md
+  - Introduction: index.md
+  - Emulation Software: software.md
+  - Emulating OSes & Hardware: emulatinge.md
   - Troubleshooting: troubleshooting.md
   - Community & Resources: community-resources.md
   - Future Developments: future-developments.md
   - Notes & Tips: notes-tips.md
-  - Lists: Lists.md
+  - Lists : lists.md
+
+# Markdown Extensions
+markdown_extensions:
+  - toc:
+      permalink: true  # Add permalinks to table of contents for easy linking
+  - admonition         # Allow the use of admonitions (information, warning, etc.)
+  - pymdownx.details   # Enable details (expandable/collapsible) blocks in Markdown
+  - pymdownx.emoji     # Enable emoji support
+  - pymdownx.superfences  # Enable custom fenced code blocks
+  - pymdownx.magiclink    # Enable auto-linking of URLs
+  - pymdownx.smartsymbols  # Enable smart typography (e.g., curly quotes)
+  - pymdownx.tasklist     # Enable task list checkboxes
+  - pymdownx.highlight   # Enable code syntax highlighting
+  - pymdownx.inlinehilite  # Enable inline code syntax highlighting
+
+
+# Additional Configuration Options (Optional)
+# Example: Configure Google Analytics for your site (uncomment and replace with your GA tracking ID)
+# google_analytics: UA-XXXXX-X

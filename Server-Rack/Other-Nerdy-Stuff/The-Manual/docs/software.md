@@ -12,7 +12,7 @@ Early emulators were primarily developed to maintain compatibility with legacy s
 
 Emulation encompasses various forms, each designed for specific purposes. The primary type is **Hardware Emulation**, which replicates the behaviour of hardware components, such as CPUs, GPUs, or peripheral devices. This allows the execution of software designed for a specific hardware platform on different hardware.
 
-## Digital Preservation and Combating Obsolescence
+# Digital Preservation and Combating Obsolescence
 
 Emulation is a crucial strategy in the pursuit of digital preservation. It helps safeguard software, hardware, and digital content from becoming obsolete and inaccessible. Here's how emulation contributes to these goals:
 
@@ -30,7 +30,7 @@ Emulators exist for various hardware and operating systems, providing a wide ran
 
 Hardware emulation replicates the behaviour of physical hardware components using software. It enables you to run software designed for one hardware architecture on a different architecture, making it a valuable tool for various purposes, including testing, development, and digital preservation.
 
-## Emulated Hardware Components
+# Emulated Hardware Components
 
 Hardware emulation encompasses a wide range of components, including:
 
