@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #232625; /* Dark gray */
+    color: #BFBFB8; /* Light gray text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #35403A; /* Dark green */
+    color: #BFBFB8; /* Light gray text */
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #4C594F; /* Greenish-gray */
+    padding: 2em 0;
+}
+
+header, nav, footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Added margin bottom for list items */
+}
+
+a {
+    text-decoration: none;
+    color: #BFBFB8; /* Light gray */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #A4A69C; /* Lighter gray on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #BFBFB8; /* Light gray border bottom */
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #35403A; /* Dark green */
+    color: #BFBFB8; /* Light gray text */
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center align the main tabs */
+}
+
+nav ul li {
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position submenus below parent items */
+    left: 0;
+    background-color: #4C594F; /* Greenish-gray for submenus */
+    padding: 0;
+}
+
+nav ul ul li {
+    display: block;
+    margin: 0;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li:hover a {
+    background-color: #35403A; /* Change to desired hover color for main tabs */
+}
+
+nav ul li ul li:hover {
+    background-color: #35403A; /* Change to desired hover color for submenus */
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 10px 20px; /* Adjusted padding for submenus */
+}
+
+/* Added list style type for unordered lists */
+li {
+    list-style-type: disc;
+}
+
+.character-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.wiki-infobox {
+    flex: 1;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
