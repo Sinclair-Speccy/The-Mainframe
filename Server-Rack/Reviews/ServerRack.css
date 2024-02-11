@@ -75,23 +75,3 @@ footer{
   width: 100%;
   height: auto;
 }
-
-/* Add media queries for responsiveness */
-@media screen and (max-width: 768px) {
-  .body-wrapper{
-    max-width:100%;
-  }
-  main{
-    float:none;
-    max-width: 100%;
-  }
-  aside{
-    float:none;
-    max-width: 100%;
-  }
-  header nav ul li{
-    float:none;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
