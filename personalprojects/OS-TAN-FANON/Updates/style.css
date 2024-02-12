@@ -2,8 +2,8 @@ body {
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
-    background-color: #232625;
-    color: #BFBFB8;
+    background-color: #22223bff; /* space-cadet */
+    color: #f2e9e4ff; /* isabelline */
 }
 
 .container {
@@ -12,14 +12,14 @@ body {
 }
 
 header {
-    background-color: #35403A;
-    color: #BFBFB8;
+    background-color: #4a4e69ff; /* ultra-violet */
+    color: #f2e9e4ff; /* isabelline */
     text-align: center;
     padding: 20px 0;
 }
 
 nav {
-    background-color: #4C594F;
+    background-color: #9a8c98ff; /* rose-quartz */
     padding: 10px 0;
     width: 100%;
 }
@@ -36,13 +36,13 @@ li {
 
 a {
     text-decoration: underline;
-    color: #BFBFB8;
+    color: #f2e9e4ff; /* isabelline */
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #A4A69C;
+    color: #c9ada7ff; /* pale-dogwood */
 }
 
 main {
@@ -55,7 +55,7 @@ section {
 
 h2 {
     font-size: 24px;
-    border-bottom: 2px solid #BFBFB8;
+    border-bottom: 2px solid #f2e9e4ff; /* isabelline */
     padding-bottom: 5px;
 }
 
@@ -65,8 +65,8 @@ p {
 }
 
 footer {
-    background-color: #35403A;
-    color: #BFBFB8;
+    background-color: #4a4e69ff; /* ultra-violet */
+    color: #f2e9e4ff; /* isabelline */
     text-align: center;
     padding: 20px 0;
 }
@@ -89,7 +89,7 @@ nav ul li a {
     font-weight: bold;
     padding: 10px;
     transition: background-color 0.3s;
-    border: 1px solid #BFBFB8;
+    border: 1px solid #f2e9e4ff; /* isabelline */
 }
 
 nav ul ul {
@@ -97,7 +97,7 @@ nav ul ul {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #4C594F;
+    background-color: #9a8c98ff; /* rose-quartz */
     padding: 0;
     z-index: 1;
 }
@@ -112,11 +112,11 @@ nav ul li:hover > ul {
 }
 
 nav ul li:hover a {
-    background-color: #35403A;
+    background-color: #4a4e69ff; /* ultra-violet */
 }
 
 nav ul li ul li:hover {
-    background-color: #35403A;
+    background-color: #4a4e69ff; /* ultra-violet */
 }
 
 nav ul li ul li a {
@@ -129,8 +129,8 @@ li {
 }
 
 .responsive {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 /* Media query for screens smaller than 600px */
