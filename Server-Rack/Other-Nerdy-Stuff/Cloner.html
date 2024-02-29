@@ -57,7 +57,7 @@
 			
 			<p>This is when I reached out to the nerds of Mastodon for help. I was suggested to use a assembler thought was to go to an online assembler because you would think "oh, it's 6502 assembly code, I can just assemble this online". Nope, you can't. Why? You are going to run into errors about there being a syntax error on line 1 like this:</p>
 			
-    <img src="Images/ElkCloner/6502%20online%20assembler.PNG" class="responsive"/> 
+    <img src="Images/ElkCloner/6502 online assembler.png" class="responsive"/> 
 
 <p>Not very nice, right? This is when I decided to head to Mastodon for help. The answer? Most likely assembler dialect issues. The source code for Elk Cloner is most likely in ORCA/M assembly which meant I could not assemble this in a ordinary online 6502 assembler so I was suggested to use the cross assembler Merlin 32, meaning I had to run this under Linux since I couldn't get it to work under Windows.</p>
 </article>
@@ -94,21 +94,21 @@
 		  
 		  <p>Now with the binary file on the disk using Diskm8, it was time to try it out.</p>
 		  
-		   <img src="Images/ElkCloner/2nd%20try.PNG" class="responsive"/>
+		   <img src="Images/ElkCloner/2nd try.png" class="responsive"/>
 		  
 		  <p>I loaded up AppleWin once again, booted the master disk that came with the emulator and switched the master disk to the disk that now had the Elk Cloner binary on it. I double checked it had transferred using the catalog command and yes it did. That extra file was from a previous attempt as I had not cleared the disk, but this wasn't a big deal.</p>
 		  
-		    <img src="Images/ElkCloner/Error%2013.PNG" class="responsive"/>
+		    <img src="Images/ElkCloner/Error 13.png" class="responsive"/>
 		  
 		  <p>Trying to run it gave me error #13. I had no idea what this meant nor do I still know what it means. I presumed something had broken when transferring the binary using Diskm8 so I tried another suggested program called AppleCommander. This thing required Java so that was not fun.</p>
 		  
 		  <p>I decided to create a whole new floppy disk image with the binary instead of using an existing blnak floppy which I had used prior. Thankfully AppleCommander has the option to create DOS 3.3 disk inmages which is what I needed.</p>
 		  
-		  <img src="Images/ElkCloner/AppleCommander.PNG" class="responsive"/>
+		  <img src="Images/ElkCloner/AppleCommander.png" class="responsive"/>
 		  
 		  <p>I saved that disk image with the cloner binary and went back to AppleWin to try it out. Of course, I double checked that I had gotten it onto the disk with the catalog command and it was there.</p>
 		  
-		  	  <img src="Images/ElkCloner/2nd%20try%202.PNG" class="responsive"/>
+		  	  <img src="Images/ElkCloner/2nd try 2.png" class="responsive"/>
 		  
 		  <p>However running it still gave me error 13. Now what? Turns out I had been running the binary the wrong way and had to use "BRUN" instead of just "RUN".</p>
 		  <p>I didn't even know BRUN was a thing so I tried it out... and it crashed the machine.</p>

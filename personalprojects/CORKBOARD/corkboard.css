@@ -27,3 +27,14 @@ body {
 	            text-align: center;
 	            color:aliceblue
             }
+
+#MiddleBar2 {
+	margin: auto;
+                width: 50%;
+                height: 30px;
+                padding: 10px;
+                font-size: 30px;
+                background-color: #753f15;
+	            text-align: center;
+	            color:aliceblue
+            }
