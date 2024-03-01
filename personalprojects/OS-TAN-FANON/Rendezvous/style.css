@@ -1,0 +1,129 @@
+/* Font Declaration */
+@font-face {
+  src: url('fonts/ChicagoFLF.ttf');
+  font-family: 'ChicagoFLF';
+  font-weight: normal;
+}
+
+/* Variable Declaration */
+:root {
+  --default-text-size: 1rem;
+  --background: #008080;
+  --window-background: #c0c0c0;
+  --window-border: 0.25em #d3d3d3 outset;
+  --button-color: var(--window-background);
+  --button-border: var(--window-border);
+  --active-button-color: #a0a0a0;
+  --active-button-border: 0.25em #d3d3d3 inset;
+}
+header {
+  /* Styles */
+  --header: linear-gradient(135deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
+    url('https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Backgrounds/headerbackground.jpg');
+  --rendezvous-font: 'ChicagoFLF', sans-serif;
+  --os-font: 'Arial Black';
+  --tan-font: 'Arial Narrow';
+  /* Numbers */
+}
+nav {
+  --top-border: 1em #000080 solid;
+}
+
+/* CSS Rules */
+body {
+  text-align: center;
+  margin: 0;
+  background: var(--background);
+  font-family: 'Arial', 'Helvetica', 'Verdana', sans-serif;
+  font-size: var(--default-text-size);
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: var(--header);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: none;
+}
+header h1 {
+  font-family: var(--tan-font), 'Arial', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 10em;
+  color: white;
+  margin: 0;
+  line-height: 0.5em;
+}
+#os {
+  font-family: var(--os-font), 'Arial', sans-serif;
+  font-weight: 900;
+}
+@media (max-width: 666px) {
+  header h1 {
+    font-size: 7.5em;
+  }
+}
+@media (max-width: 400px) {
+  header {
+    height: 10em;
+  }
+  header h1 {
+    font-size: 5em;
+  }
+}
+@media (max-width: 300px) {
+  header h1 {
+    font-size: 3.75em;
+  }
+}
+#rendezvous {
+  font-family: var(--rendezvous-font);
+  font-weight: normal;
+  font-size: 0.5em;
+}
+
+nav {
+  background-color: var(--window-background);
+  border: var(--window-border);
+  border-top: var(--top-border);
+  margin: var(--default-margin);
+  max-width: 6in;
+}
+@media (max-width: 6in) {
+  nav {
+    margin: 1em;
+  }
+}
+.nav-head {
+  font-weight: bold;
+  font-size: 1.375em;
+}
+.buttons {
+  display: flex;
+  margin: 0.25em;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: row wrap;
+}
+.button {
+  background-color: var(--button-color);
+  border: var(--button-border);
+  color: black;
+  padding: 0.25em;
+  margin: 0.25em;
+}
+.button:active {
+  background-color: var(--active-button-color);
+  border: var(--active-button-border);
+}
+
+footer {
+  font-size: 0.75em;
+}
