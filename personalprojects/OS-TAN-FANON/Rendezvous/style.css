@@ -1,11 +1,11 @@
-/* Font Declaration */
 @font-face {
-  src: url('fonts/ChicagoFLF.ttf');
+  src: url(/web/20210111082551im_/https://www.ostans.com/fonts/ChicagoFLF.ttf);
   font-family: 'ChicagoFLF';
   font-weight: normal;
 }
 
 /* Variable Declaration */
+
 :root {
   --default-text-size: 1rem;
   --background: #008080;
@@ -30,6 +30,7 @@ nav {
 }
 
 /* CSS Rules */
+
 body {
   text-align: center;
   margin: 0;
