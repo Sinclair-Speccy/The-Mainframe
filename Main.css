@@ -37,9 +37,8 @@ header nav ul li a{
 }
 article{
   margin: 5px;
-  padding: 5px 0;
+  padding: 10px 0;
   border: solid 1px #633139;;
-  overflow: hidden;
   padding-top: 0px;
   background:#fff;
 }
