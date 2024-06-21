@@ -140,3 +140,27 @@ li {
         align-items: center;
     }
 }
+
+<style>
+        .dropdown {
+            cursor: pointer;
+            user-select: none;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #22223bff;
+            transition: background-color 0.3s;
+        }
+        .dropdown:hover {
+            background-color: #4a4e69ff;
+        }
+        .dropdown-content {
+            display: none;
+            margin-left: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #22223bff;
+        }
+    </style>
