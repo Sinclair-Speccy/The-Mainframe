@@ -150,3 +150,39 @@ a:hover {
 .horizontal-menu a:hover {
   color: #00ff80;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .site-title {
+    font-size: 1.5rem; /* Adjust title font size for smaller screens */
+  }
+
+  .content-box {
+    padding: 10px; /* Adjust content box padding for smaller screens */
+    margin-top: 10px; /* Adjust spacing between content boxes for smaller screens */
+  }
+
+  .title {
+    font-size: 20px; /* Adjust title font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .horizontal-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .horizontal-menu li {
+    margin-right: 0;
+    margin-bottom: 10px; /* Adjust spacing between menu items for smaller screens */
+  }
+
+  .horizontal-menu li:last-child {
+    margin-bottom: 0;
+  }
+}

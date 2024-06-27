@@ -5,6 +5,7 @@ body{
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'sans;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
   color:#000000;
+  font-size: 15px;
   background-image: url("https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Server-Rack/Images/cc025338.jpg");
   background-repeat: repeat;
 }
