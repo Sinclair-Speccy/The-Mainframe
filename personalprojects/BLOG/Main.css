@@ -1,13 +1,16 @@
 body{
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'sans;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
-background-image: url("https://background-tiles.com/overview/blue/patterns/large/1019.png");
+  color:#000000;
+  background-image: url("https://background-tiles.com/overview/blue/patterns/large/1019.png");
   background-repeat: repeat;
-    font-size: 15px;
+  font-size: 15px;
+    
 }
-.text-centre{
-  text-align:center;
+.text-centre {
+  text-align: center;
 }
+
 .body-wrapper{
   max-width:1000px;
   margin:0 auto;
