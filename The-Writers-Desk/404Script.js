@@ -1,10 +1,10 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const starsContainer = document.querySelector('.space-container');
+document.addEventListener("DOMContentLoaded", function () {
+  const starsContainer = document.querySelector(".space-container");
   const numStars = 500; // You can adjust the number of stars
 
   for (let i = 0; i < numStars; i++) {
-    const star = document.createElement('div');
-    star.classList.add('stars');
+    const star = document.createElement("div");
+    star.classList.add("stars");
     star.style.top = `${Math.random() * 100}%`;
     star.style.left = `${Math.random() * 100}%`;
 

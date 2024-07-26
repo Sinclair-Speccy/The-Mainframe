@@ -1,82 +1,101 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-  font-family: 'Perfect DOS VGA 437','Perfect DOS VGA 437 Win', sans-serif;
-  text-shadow: rgba(0,0,0,.01) 0 0 1px;
-  color:#000000;
+body {
+  font-family: "Perfect DOS VGA 437", "Perfect DOS VGA 437 Win", sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  color: #000000;
   background-image: url("https://external-preview.redd.it/uhq5zTcMPM3tOW_fbUz4PayDt_5pkEXdyXXoRWs3XOg.jpg?auto=webp&s=e06461124c1ccfdba7e9ece763b644ff68eeb06b");
 }
-.text-centre{
-  text-align:center;
+
+.text-centre {
+  text-align: center;
 }
-.body-wrapper{
-  max-width:1000px;
-  margin:0 auto;
+
+.body-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.picheader{
-  height:250px;
-  overflow:hidden;
+
+.picheader {
+  height: 250px;
+  overflow: hidden;
 }
-header nav{
-  background:#2157d5;
-  color:#3c81f3;
+
+header nav {
+  background: #2157d5;
+  color: #3c81f3;
   border: solid 1px #2157d5;
-  overflow:hidden;
-  padding:10px auto;
+  overflow: hidden;
+  padding: 10px auto;
 }
-header nav ul{
-  list-style:none;
-  overflow:hidden;
+
+header nav ul {
+  list-style: none;
+  overflow: hidden;
 }
-header nav ul li{
-  float:left;
+
+header nav ul li {
+  float: left;
   margin-left: 4px;
   margin-right: 4px;
 }
-header nav ul li a{
-  color:#e5e9f0;
-  font-size:1.2em
+
+header nav ul li a {
+  color: #e5e9f0;
+  font-size: 1.2em;
 }
-article{
+
+article {
   margin: 5px;
   padding: 5px 0;
   border: solid 1px #3c81f3;
   overflow: hidden;
   padding-top: 0px;
-  background:#fff;
+  background: #fff;
 }
-.title{
+
+.title {
   background: #2157d5;
   color: #e5e9f0;
   padding: 5px;
   padding-left: 10px;
   overflow: hidden;
   margin: 0;
-  font-weight:bolder;
+  font-weight: bolder;
 }
-article p, article h1,article h2, article h3, article h4{
-  padding:0 15px;
+
+article p,
+article h1,
+article h2,
+article h3,
+article h4 {
+  padding: 0 15px;
 }
-main{
-  float:left;
+
+main {
+  float: left;
   max-width: 68%;
 }
-aside{
-  float:right;
-	max-width: 32%;
+
+aside {
+  float: right;
+  max-width: 32%;
 }
-footer{
-	width: 100%;
-	float: left;
-	background: #61ac61;
-    color: #61ac61;
+
+footer {
+  width: 100%;
+  float: left;
+  background: #61ac61;
+  color: #61ac61;
 }
+
 .responsive {
   width: 100%;
   height: auto;
 }
- /* unvisited link */
+
+/* unvisited link */
 a:link {
   color: #61ac61;
 }
@@ -94,4 +113,4 @@ a:hover {
 /* selected link */
 a:active {
   color: #61ac61;
-} 
+}

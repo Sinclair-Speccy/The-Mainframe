@@ -1,9 +1,11 @@
 body {
-    font-family: 'Courier New', monospace;
+    font-family: "Courier New", monospace;
     margin: 0;
     padding: 0;
-    background-color: #008080; /* teal background */
-    color: #FFFFFF; /* black text */
+    background-color: #008080;
+    /* teal background */
+    color: #ffffff;
+    /* black text */
 }
 
 .container {
@@ -13,14 +15,17 @@ body {
 }
 
 header {
-    background-color: #000080; /* dark blue title bar */
-    color: #FFFFFF; /* white text */
+    background-color: #000080;
+    /* dark blue title bar */
+    color: #ffffff;
+    /* white text */
     text-align: center;
     padding: 20px 0;
 }
 
 nav {
-    background-color: #C0C0C0; /* light gray background */
+    background-color: #c0c0c0;
+    /* light gray background */
     padding: 10px 0;
     width: 100%;
 }
@@ -38,13 +43,15 @@ li {
 
 a {
     text-decoration: underline;
-    color: #FFFFFF; /* black text */
+    color: #ffffff;
+    /* black text */
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #FFFF00; /* yellow */
+    color: #ffff00;
+    /* yellow */
 }
 
 main {
@@ -57,7 +64,8 @@ section {
 
 h2 {
     font-size: 24px;
-    border-bottom: 2px solid #FFFFFF; /* black text */
+    border-bottom: 2px solid #ffffff;
+    /* black text */
     padding-bottom: 5px;
 }
 
@@ -67,8 +75,10 @@ p {
 }
 
 footer {
-    background-color: #000080; /* dark blue title bar */
-    color: #FFFFFF; /* black text */
+    background-color: #000080;
+    /* dark blue title bar */
+    color: #ffffff;
+    /* black text */
     text-align: center;
     padding: 20px 0;
 }
@@ -87,11 +97,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #FFFFFF; /* black text */
+    color: #ffffff;
+    /* black text */
     font-weight: bold;
     padding: 10px;
     transition: background-color 0.3s;
-    border: 1px solid #FFFFFF; /* black text */
+    border: 1px solid #ffffff;
+    /* black text */
 }
 
 nav ul ul {
@@ -99,7 +111,8 @@ nav ul ul {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #C0C0C0; /* light gray background */
+    background-color: #c0c0c0;
+    /* light gray background */
     padding: 0;
     z-index: 1;
 }
@@ -109,16 +122,18 @@ nav ul ul li {
     margin: 0;
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
     display: block;
 }
 
 nav ul li:hover a {
-    background-color: #808080; /* dark gray */
+    background-color: #808080;
+    /* dark gray */
 }
 
 nav ul li ul li:hover {
-    background-color: #808080; /* dark gray */
+    background-color: #808080;
+    /* dark gray */
 }
 
 nav ul li ul li a {
@@ -129,15 +144,19 @@ nav ul li ul li a {
 .character-info {
     flex: 2;
     padding: 20px;
-    background-color: #008080; /* teal background */
-    color: #FFFFFF; /* black text */
+    background-color: #008080;
+    /* teal background */
+    color: #ffffff;
+    /* black text */
 }
 
 .wiki-infobox {
     flex: 0;
     padding: 20px;
-    background-color: #000080; /* dark blue title bar */
-    color: #FFFFFF; /* black text */
+    background-color: #000080;
+    /* dark blue title bar */
+    color: #ffffff;
+    /* black text */
 }
 
 .color-box {
@@ -146,7 +165,8 @@ nav ul li ul li a {
     height: 20px;
     margin-right: 5px;
     vertical-align: middle;
-    border: 1px solid #FFFFFF; /* black text */
+    border: 1px solid #ffffff;
+    /* black text */
 }
 
 .responsive {

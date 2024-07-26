@@ -2,8 +2,10 @@ body {
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
-    background-color: #22223bff; /* space-cadet */
-    color: #f2e9e4ff; /* isabelline */
+    background-color: #22223bff;
+    /* space-cadet */
+    color: #f2e9e4ff;
+    /* isabelline */
 }
 
 .container {
@@ -13,14 +15,17 @@ body {
 }
 
 header {
-    background-color: #4a4e69ff; /* ultra-violet */
-    color: #f2e9e4ff; /* isabelline */
+    background-color: #4a4e69ff;
+    /* ultra-violet */
+    color: #f2e9e4ff;
+    /* isabelline */
     text-align: center;
     padding: 20px 0;
 }
 
 nav {
-    background-color: #9a8c98ff; /* rose-quartz */
+    background-color: #9a8c98ff;
+    /* rose-quartz */
     padding: 10px 0;
     width: 100%;
 }
@@ -36,15 +41,17 @@ li {
     list-style-type: disc;
 }
 
-a  {
+a {
     text-decoration: underline;
-    color: #f2e9e4ff; /* isabelline */
+    color: #f2e9e4ff;
+    /* isabelline */
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #c9ada7ff; /* pale-dogwood */
+    color: #c9ada7ff;
+    /* pale-dogwood */
 }
 
 main {
@@ -57,7 +64,8 @@ section {
 
 h2 {
     font-size: 24px;
-    border-bottom: 2px solid #f2e9e4ff; /* isabelline */
+    border-bottom: 2px solid #f2e9e4ff;
+    /* isabelline */
     padding-bottom: 5px;
 }
 
@@ -67,8 +75,10 @@ p {
 }
 
 footer {
-    background-color: #4a4e69ff; /* ultra-violet */
-    color: #f2e9e4ff; /* isabelline */
+    background-color: #4a4e69ff;
+    /* ultra-violet */
+    color: #f2e9e4ff;
+    /* isabelline */
     text-align: center;
     padding: 20px 0;
 }
@@ -87,11 +97,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #f2e9e4ff; /* isabelline */
+    color: #f2e9e4ff;
+    /* isabelline */
     font-weight: bold;
     padding: 10px;
     transition: background-color 0.3s;
-    border: 1px solid #f2e9e4ff; /* isabelline */
+    border: 1px solid #f2e9e4ff;
+    /* isabelline */
 }
 
 nav ul ul {
@@ -99,7 +111,8 @@ nav ul ul {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #9a8c98ff; /* rose-quartz */
+    background-color: #9a8c98ff;
+    /* rose-quartz */
     padding: 0;
     z-index: 1;
 }
@@ -109,16 +122,18 @@ nav ul ul li {
     margin: 0;
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
     display: block;
 }
 
 nav ul li:hover a {
-    background-color: #4a4e69ff; /* ultra-violet */
+    background-color: #4a4e69ff;
+    /* ultra-violet */
 }
 
 nav ul li ul li:hover {
-    background-color: #4a4e69ff; /* ultra-violet */
+    background-color: #4a4e69ff;
+    /* ultra-violet */
 }
 
 nav ul li ul li a {
@@ -129,15 +144,19 @@ nav ul li ul li a {
 .character-info {
     flex: 2;
     padding: 20px;
-    background-color: #22223bff; /* space-cadet */
-    color: #f2e9e4ff; /* isabelline */
+    background-color: #22223bff;
+    /* space-cadet */
+    color: #f2e9e4ff;
+    /* isabelline */
 }
 
 .wiki-infobox {
     flex: 1;
     padding: 20px;
-    background-color: #4a4e69ff; /* ultra-violet */
-    color: #f2e9e4ff; /* isabelline */
+    background-color: #4a4e69ff;
+    /* ultra-violet */
+    color: #f2e9e4ff;
+    /* isabelline */
 }
 
 .color-box {
@@ -146,7 +165,8 @@ nav ul li ul li a {
     height: 20px;
     margin-right: 5px;
     vertical-align: middle;
-    border: 1px solid white; /* White border */
+    border: 1px solid white;
+    /* White border */
 }
 
 

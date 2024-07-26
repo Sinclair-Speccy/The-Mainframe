@@ -1,52 +1,60 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-  font-family: 'Perfect DOS VGA 437','Perfect DOS VGA 437 Win', sans-serif;
-  text-shadow: rgba(0,0,0,.01) 0 0 1px;
-  color:#000000;
+body {
+  font-family: 'Perfect DOS VGA 437', 'Perfect DOS VGA 437 Win', sans-serif;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  color: #000000;
   font-size: 15px;
   background-image: url("https://sadhost.neocities.org/images/tiles/comp016.gif");
   background-repeat: repeat;
 }
 
-.title{
+.title {
   background: #897669;
   color: #000000;
   padding: 1px;
   padding-left: 9px;
   overflow: hidden;
   margin: 0;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 .sidenav {
-  width: 200px; /* Set a width if you like */
+  width: 200px;
+  /* Set a width if you like */
   display: inline-block;
 }
 
 .sidenav a {
-  background-color: #c8b29a; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 7px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
+  background-color: #c8b29a;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
+  display: block;
+  /* Make the links appear below each other */
+  padding: 7px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline from links */
 }
 
 .sidenav a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
+  background-color: #ccc;
+  /* Dark grey background on mouse-over */
 }
 
 .sidenav a.active {
-  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  background-color: #04AA6D;
+  /* Add a green color to the "active/current" link */
   color: white;
 }
 
 #content {
-                background: #3E3E3E;
-                display: inline-block;
-                height: 900px;
-                margin: 20px 0;
-                width: 1600px;
-	            border: 10px solid #c8b29a;
-            }
+  background: #3E3E3E;
+  display: inline-block;
+  height: 900px;
+  margin: 20px 0;
+  width: 1600px;
+  border: 10px solid #c8b29a;
+}

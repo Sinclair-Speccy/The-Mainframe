@@ -1,75 +1,93 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-  font-family: 'Perfect DOS VGA 437','Perfect DOS VGA 437 Win', sans-serif;
-  text-shadow: rgba(0,0,0,.01) 0 0 1px;
-  color:#000000;
+body {
+  font-family: "Perfect DOS VGA 437", "Perfect DOS VGA 437 Win", sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  color: #000000;
   background-image: url("https://raw.githubusercontent.com/Sinclair-Speccy/The-Mainframe/main/Backgrounds/wp2807993-windows-98-background.png");
 }
-.text-centre{
-  text-align:center;
+
+.text-centre {
+  text-align: center;
 }
-.body-wrapper{
-  max-width:1000px;
-  margin:0 auto;
+
+.body-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.picheader{
-  height:250px;
-  overflow:hidden;
+
+.picheader {
+  height: 250px;
+  overflow: hidden;
 }
-header nav{
-  background:#0843a9;
-  color:#c0c0c0;
+
+header nav {
+  background: #0843a9;
+  color: #c0c0c0;
   border: solid 1px #0843a9;
-  overflow:hidden;
-  padding:10px auto;
+  overflow: hidden;
+  padding: 10px auto;
 }
-header nav ul{
-  list-style:none;
-  overflow:hidden;
+
+header nav ul {
+  list-style: none;
+  overflow: hidden;
 }
-header nav ul li{
-  float:left;
+
+header nav ul li {
+  float: left;
   margin-left: 4px;
   margin-right: 4px;
 }
-header nav ul li a{
+
+header nav ul li a {
   color: #ffffff;
-  font-size:1.2em
+  font-size: 1.2em;
 }
-article{
+
+article {
   margin: 5px;
   padding: 5px 0;
   border: solid 1px #c0c0c0;
   overflow: hidden;
   padding-top: 0px;
-  background:#fff;
+  background: #fff;
 }
-.title{
+
+.title {
   background: #0843a9;
   color: #ffffff;
   padding: 5px;
   padding-left: 10px;
   overflow: hidden;
   margin: 0;
-  font-weight:bolder;
+  font-weight: bolder;
 }
-article p, article h1,article h2, article h3, article h4{
-  padding:0 15px;
+
+article p,
+article h1,
+article h2,
+article h3,
+article h4 {
+  padding: 0 15px;
 }
-main{
-  float:left;
+
+main {
+  float: left;
   max-width: 68%;
 }
-aside{
-  float:right;
-	max-width: 32%;
+
+aside {
+  float: right;
+  max-width: 32%;
 }
-footer{
-	width: 100%;
-	float: left;
+
+footer {
+  width: 100%;
+  float: left;
 }
+
 .responsive {
   width: 100%;
   height: auto;

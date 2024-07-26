@@ -68,7 +68,11 @@ article {
   font-weight: bolder;
 }
 
-article p, article h1, article h2, article h3, article h4 {
+article p,
+article h1,
+article h2,
+article h3,
+article h4 {
   padding: 0 15px;
 }
 
@@ -105,7 +109,8 @@ footer {
     text-align: center;
   }
 
-  main, aside {
+  main,
+  aside {
     float: none;
     width: 100%;
   }
