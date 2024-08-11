@@ -11,7 +11,6 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
-  display: flex;
 }
 
 header {
@@ -38,13 +37,12 @@ ul {
 
 li {
   margin-bottom: 10px;
-  list-style-type: disc;
 }
 
 a {
   text-decoration: underline;
   color: #ffffff;
-  /* black text */
+  /* dark blue */
   font-weight: bold;
   transition: color 0.3s ease;
 }
@@ -64,8 +62,8 @@ section {
 
 h2 {
   font-size: 24px;
-  border-bottom: 2px solid #ffffff;
-  /* black text */
+  border-bottom: 2px solid #000000;
+  /* black */
   padding-bottom: 5px;
 }
 
@@ -78,7 +76,7 @@ footer {
   background-color: #000080;
   /* dark blue title bar */
   color: #ffffff;
-  /* black text */
+  /* white text */
   text-align: center;
   padding: 20px 0;
 }
@@ -98,12 +96,12 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
-  /* black text */
+  /* dark blue */
   font-weight: bold;
   padding: 10px;
   transition: background-color 0.3s;
-  border: 1px solid #ffffff;
-  /* black text */
+  border: 1px solid #000000;
+  /* black */
 }
 
 nav ul ul {
@@ -112,7 +110,7 @@ nav ul ul {
   top: 100%;
   left: 0;
   background-color: #c0c0c0;
-  /* light gray background */
+  /* light gray */
   padding: 0;
   z-index: 1;
 }
@@ -141,32 +139,8 @@ nav ul li ul li a {
   padding: 10px 20px;
 }
 
-.character-info {
-  flex: 2;
-  padding: 20px;
-  background-color: #008080;
-  /* teal background */
-  color: #ffffff;
-  /* black text */
-}
-
-.wiki-infobox {
-  flex: 0;
-  padding: 20px;
-  background-color: #000080;
-  /* dark blue title bar */
-  color: #ffffff;
-  /* black text */
-}
-
-.color-box {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
-  vertical-align: middle;
-  border: 1px solid #ffffff;
-  /* black text */
+li {
+  list-style-type: disc;
 }
 
 .responsive {
@@ -181,3 +155,33 @@ nav ul li ul li a {
     align-items: center;
   }
 }
+
+.dropdown {
+  cursor: pointer;
+  user-select: none;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #000000;
+  /* black */
+  border-radius: 5px;
+  background-color: #008080;
+  /* teal background */
+  transition: background-color 0.3s;
+}
+
+.dropdown:hover {
+  background-color: #000080;
+  /* dark blue */
+}
+
+.dropdown-content {
+  display: none;
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid #000000;
+  /* black */
+  border-radius: 5px;
+  background-color: #008080;
+  /* teal background */
+}
+
