@@ -1,9 +1,10 @@
 body {
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+    "DejaVu Sans", Verdana, "sans-serif";
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   font-size: 15px;
   color: #000000;
-  background: #4480B4;
+  background: #4480b4;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

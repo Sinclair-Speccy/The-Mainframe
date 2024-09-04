@@ -54,9 +54,11 @@ a:hover {
   0% {
     text-shadow: 0 0 5px rgba(255, 127, 0, 0.8);
   }
+
   50% {
     text-shadow: 0 0 20px rgba(255, 127, 0, 0.8);
   }
+
   100% {
     text-shadow: 0 0 5px rgba(255, 127, 0, 0.8);
   }

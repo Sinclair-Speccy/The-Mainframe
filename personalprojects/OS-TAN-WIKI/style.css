@@ -120,7 +120,7 @@ nav ul ul li {
   margin: 0;
 }
 
-nav ul li:hover>ul {
+nav ul li:hover > ul {
   display: block;
 }
 
@@ -184,4 +184,3 @@ li {
   background-color: #008080;
   /* teal background */
 }
-

@@ -2,8 +2,8 @@
 /* CSS Document */
 
 body {
-  font-family: 'Perfect DOS VGA 437', 'Perfect DOS VGA 437 Win', sans-serif;
-  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  font-family: "Perfect DOS VGA 437", "Perfect DOS VGA 437 Win", sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   color: #000000;
   font-size: 15px;
   background-image: url("https://sadhost.neocities.org/images/tiles/comp016.gif");
@@ -45,13 +45,13 @@ body {
 }
 
 .sidenav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   /* Add a green color to the "active/current" link */
   color: white;
 }
 
 #content {
-  background: #3E3E3E;
+  background: #3e3e3e;
   display: inline-block;
   height: 900px;
   margin: 20px 0;

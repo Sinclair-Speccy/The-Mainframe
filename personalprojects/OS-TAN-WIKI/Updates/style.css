@@ -120,7 +120,7 @@ nav ul ul li {
   margin: 0;
 }
 
-nav ul li:hover>ul {
+nav ul li:hover > ul {
   display: block;
 }
 
