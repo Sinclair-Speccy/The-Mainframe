@@ -60,7 +60,7 @@ gcc -D__KERNEL__ -I/usr/src/linux/include -Wall -Wstrict-prototypes -O2 -fomit-f
 ...
 make[1]: *** [linuxsubdirs] Error 2
     </code>
-    <p>This was not much of a big deal because it was just a low-level driver for Turtle Beach Maui and Tropez cards(?) that I didn't have stuff for, so I fixed it by going back into the config file and removing them before compiling the kernel again.</p>
+    <p>This was not much of a big deal because it was just a low-level driver for Turtle Beach Maui and Tropez cards(?) that I didn't have stuff for, so I fixed it by going back into the config file and removing them before compiling the kernel again. In the end I realised trying to go from 1.2.13 to 2.2.0 does not work without hacks and tweaks.</p>
   </article>
 
   <article>
