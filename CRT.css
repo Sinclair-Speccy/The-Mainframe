@@ -2,7 +2,7 @@ body {
   background-color: #003511;
   color: #66e381;
   font-family: "VT323", monospace;
-  font-size: 18px;
+  font-size: 22px; /* Increased font size */
 }
 
 /* Adapted from source: http://aleclownes.com/2017/02/01/crt-display.html */
@@ -10,7 +10,6 @@ body {
   0% {
     opacity: 0.3;
   }
-
   100% {
     opacity: 0.8;
   }
@@ -20,7 +19,6 @@ body {
   0% {
     text-shadow: 0 0 1px rgba(0, 30, 255, 0.5), 0 0 3px rgba(255, 0, 80, 0.3);
   }
-
   100% {
     text-shadow: 0 0 1px rgba(0, 30, 255, 0.5), 0 0 3px rgba(255, 0, 80, 0.3);
   }
@@ -66,7 +64,7 @@ body {
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 3rem; /* Increased site title font size */
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -100,7 +98,7 @@ a:hover {
   color: #66e381;
   /* Text color */
   font-family: "VT323", monospace;
-  font-size: 18px;
+  font-size: 22px; /* Increased font size */
   padding: 20px;
   /* Add spacing around content */
 }
@@ -140,8 +138,7 @@ a:hover {
 }
 
 .title {
-  font-size: 24px;
-  /* Title font size */
+  font-size: 30px; /* Increased title font size */
   margin-top: 0;
   /* Remove default margin */
 }
@@ -182,8 +179,7 @@ a:hover {
   }
 
   .site-title {
-    font-size: 1.5rem;
-    /* Adjust title font size for smaller screens */
+    font-size: 2rem; /* Increased title font size */
   }
 
   .content-box {
@@ -194,8 +190,7 @@ a:hover {
   }
 
   .title {
-    font-size: 20px;
-    /* Adjust title font size for smaller screens */
+    font-size: 26px; /* Increased title font size */
   }
 }
 
