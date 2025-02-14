@@ -169,6 +169,15 @@ nav ul li ul li a {
   /* White border */
 }
 
+.gradient-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
 .responsive {
   width: 100%;
   height: auto;
