@@ -1,9 +1,19 @@
-# The-Mainframe
+# The Mainframe
 
-Source code for my website. This can be used to view how certain pages were created that you like, and might want to replicate, such as the CRT effect on the "About Me" page which uses modified code. Other content may be added here from time to time.
+This repository contains the source code for my personal website: [The Mainframe](https://sinclair-speccy.github.io/The-Mainframe/).  
+Feel free to browse the code to see how different pages and effects are implemented, such as the CRT effect on the "About Me" page (which uses modified code). Other content and updates may be added here from time to time.
 
-## Takedown Requests and Other Information
+## Contact & Takedown Requests
 
-If you want me to take down something on the site that you own, I kindly ask that you **PLEASE** send me an email to the address listed on the "About Me" page on my site. Only use the issues section if you don’t have an email.
+If you need something removed from the site that you own, please **email me** using the address listed on the "About Me" page of the site.  
+Only use the GitHub Issues section if you do not have access to email.
 
-Please provide reasonable evidence to support your request. Regarding content linked via the Wayback Machine, I most likely won’t remove it, as it would make more sense to complain to the Wayback Machine instead of to me.
+When making a takedown request, please provide reasonable evidence to support your claim.  
+For content linked via the Wayback Machine, please note that I likely will not remove it—such requests are better directed to the Internet Archive.
+
+## License
+
+This project is for personal and educational purposes.  
+If you wish to reuse or adapt any part of the code, please credit the original sources where applicable.
+
+---
